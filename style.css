@@ -1,0 +1,33 @@
+#editor{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+#parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+#child{
+     height: 250px;
+    width: 350px;
+    border: none;
+}
+.bg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.fnt{
+     height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
